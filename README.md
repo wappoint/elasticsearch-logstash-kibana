@@ -10,4 +10,5 @@ elastic-serarch + logstash + kibana 安装，配置教程
 ## 教程
   * [elasticsearch安装及配置](elasticsearch安装及配置.md)
   * [kibana安装及配置](kibana安装及配置.md)
+  * [logstash安装及配置](logstash安装及配置.md)
   
