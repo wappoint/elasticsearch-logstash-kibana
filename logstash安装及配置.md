@@ -10,14 +10,12 @@
    > /opt/logstash/config/startup.options
    
    >> LS_HOME=/opt/logstash/
-   
-   >> LS_SETTINGS_DIR="${LS_HOME}/config"
+      LS_SETTINGS_DIR="${LS_HOME}/config"
    
    > /opt/logstash/config/logstash.yml
    
    >> http.host: "192.168.0.72"
-   
-   >> path.logs: /opt/logstash/data/logs
+      path.logs: /opt/logstash/data/logs
    
    > 增加输入|输出配置文件目录(pipeline)
    
