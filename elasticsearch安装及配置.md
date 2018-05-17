@@ -114,4 +114,7 @@
    >>> echo "#elasticsearch inti dinghe add 20170828" \>> /etc/sysctl.conf
    
    >>> echo "vm.max_map_count = 262144" \>> /etc/sysctl.conf
-   
+
+6. 安装插件
+   > 安装ik分词插件
+   >> /opt/elasticsearch/bin/elasticsearch-plugin install https://github.com/medcl/elasticsearch-analysis-ik/releases/download/v6.2.4/elasticsearch-analysis-ik-6.2.4.zip
